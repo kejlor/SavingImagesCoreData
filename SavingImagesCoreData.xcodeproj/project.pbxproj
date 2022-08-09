@@ -11,6 +11,11 @@
 		E9986AD528A2D6C900C0ADAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9986AD428A2D6C900C0ADAE /* ContentView.swift */; };
 		E9986AD728A2D6CA00C0ADAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9986AD628A2D6CA00C0ADAE /* Assets.xcassets */; };
 		E9986ADA28A2D6CA00C0ADAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9986AD928A2D6CA00C0ADAE /* Preview Assets.xcassets */; };
+		E9986AE228A2D6F200C0ADAE /* PhotosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9986AE028A2D6F200C0ADAE /* PhotosModel.xcdatamodeld */; };
+		E9986AE428A2D7CB00C0ADAE /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9986AE328A2D7CB00C0ADAE /* Photo.swift */; };
+		E9986AE628A2D95500C0ADAE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9986AE528A2D95500C0ADAE /* CoreDataManager.swift */; };
+		E9986AE828A2DA0700C0ADAE /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9986AE728A2DA0700C0ADAE /* PhotoViewModel.swift */; };
+		E9986AEA28A2DC2F00C0ADAE /* UIImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9986AE928A2DC2F00C0ADAE /* UIImageTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E9986AD428A2D6C900C0ADAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9986AD628A2D6CA00C0ADAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9986AD928A2D6CA00C0ADAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9986AE128A2D6F200C0ADAE /* PhotosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotosModel.xcdatamodel; sourceTree = "<group>"; };
+		E9986AE328A2D7CB00C0ADAE /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E9986AE528A2D95500C0ADAE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E9986AE728A2DA0700C0ADAE /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		E9986AE928A2DC2F00C0ADAE /* UIImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				E9986AD428A2D6C900C0ADAE /* ContentView.swift */,
 				E9986AD628A2D6CA00C0ADAE /* Assets.xcassets */,
 				E9986AD828A2D6CA00C0ADAE /* Preview Content */,
+				E9986AE028A2D6F200C0ADAE /* PhotosModel.xcdatamodeld */,
+				E9986AE328A2D7CB00C0ADAE /* Photo.swift */,
+				E9986AE528A2D95500C0ADAE /* CoreDataManager.swift */,
+				E9986AE728A2DA0700C0ADAE /* PhotoViewModel.swift */,
+				E9986AE928A2DC2F00C0ADAE /* UIImageTransformer.swift */,
 			);
 			path = SavingImagesCoreData;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9986AE428A2D7CB00C0ADAE /* Photo.swift in Sources */,
+				E9986AE828A2DA0700C0ADAE /* PhotoViewModel.swift in Sources */,
+				E9986AE228A2D6F200C0ADAE /* PhotosModel.xcdatamodeld in Sources */,
 				E9986AD528A2D6C900C0ADAE /* ContentView.swift in Sources */,
+				E9986AE628A2D95500C0ADAE /* CoreDataManager.swift in Sources */,
 				E9986AD328A2D6C900C0ADAE /* SavingImagesCoreDataApp.swift in Sources */,
+				E9986AEA28A2DC2F00C0ADAE /* UIImageTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9986AE028A2D6F200C0ADAE /* PhotosModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9986AE128A2D6F200C0ADAE /* PhotosModel.xcdatamodel */,
+			);
+			currentVersion = E9986AE128A2D6F200C0ADAE /* PhotosModel.xcdatamodel */;
+			path = PhotosModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E9986AC728A2D6C900C0ADAE /* Project object */;
 }
